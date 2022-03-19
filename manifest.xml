@@ -19,11 +19,11 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.nfc</name>
+        <name>vendor.nxp.nxpnfc</name>
         <transport>hwbinder</transport>
         <version>1.2</version>
         <interface>
-            <name>INfc</name>
+            <name>INxpNfc</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -85,11 +85,11 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.nxp.hardware.nfc</name>
+        <name>vendor.nxp.nxpnfc</name>
         <transport>hwbinder</transport>
         <version>2.0</version>
         <interface>
-            <name>INqNfc</name>
+            <name>INxpNfc</name>
             <instance>default</instance>
         </interface>
     </hal>
